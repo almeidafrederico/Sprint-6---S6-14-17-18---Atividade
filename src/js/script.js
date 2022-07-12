@@ -49,3 +49,9 @@ function createElementeItens(){
 }
 
 createElementeItens();
+
+let liUlSection = document.querySelectorAll('section ul li');
+
+ulSection.addEventListener('click', function() {
+    console.log(event.target);
+});
